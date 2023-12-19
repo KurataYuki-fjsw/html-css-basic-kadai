@@ -1,5 +1,9 @@
 h1, p, body {
-  margin: 0px 0px 0px 0px;
+  margin: 0px;
+}
+
+p, a {
+  font-size: 20px;
 }
 
 header {
@@ -36,6 +40,7 @@ main {
   margin-right: 0px;
   text-align: center;
 }
+
 h2 {
   font-size: 25px;
   border-bottom: 3px dotted rgb(236,122,122);
@@ -47,6 +52,7 @@ h2::before {
 }
 
 .contents p:nth-of-type(2)::first-letter {
+  font-weight: bold;
   color: rgb(97, 206, 249);
 }
 
